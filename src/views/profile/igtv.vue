@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <CustomText tag="h1">Profile Save</CustomText>
+    <CustomText tag="h1">Profile IGTV</CustomText>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import CustomText from '@/components/CustomText'
 
 export default {
-  name: 'ProfileSave',
+  name: 'ProfileIGTV',
   components: {
     CustomText
   }

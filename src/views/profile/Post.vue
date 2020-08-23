@@ -1,21 +1,18 @@
 <template>
   <div class="home">
-       <CostumText  tag="h1">Profile Post</CostumText>
- 
+    <CustomText tag="h1">Profile Post</CustomText>
   </div>
 </template>
 
 <script>
-import CostumText from "@/components/CostumText.vue";
+import CustomText from '@/components/CustomText'
 
 export default {
-  name: "ProfilePost",
-  components:{
-    CostumText,
-   
+  name: 'ProfilePost',
+  components: {
+    CustomText
   }
-};
+}
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
